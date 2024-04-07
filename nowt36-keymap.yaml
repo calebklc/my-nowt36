@@ -1,0 +1,64 @@
+layout:
+  qmk_keyboard: corne_rotated
+  qmk_layout: LAYOUT_split_3x5_3
+layers:
+  L0:
+    - [Q, W, E, R, T, Y, U, I, O, P]
+    - [A, S, D, F, G, H, J, K, L, ":;"]
+    - [Z, X, C, V, B, N, M, "<,", ">.", "?/"]
+    - Shift
+    - {h: L1,  t: Space}
+    - Alt
+    - Tab
+    - {h: L4, t: Enter}
+    - {h: L2,   t: Bksp}
+  L1:
+    - [null, null, null, null, null, null, "&7", "*8", "(9", null]
+    - [Ctrl, Alt, Gui, Shift, null, null, "$4", "%5", "^6", null]
+    - [null, null, null, null, null, null, "!1", "@2", "#3", null]
+    - null
+    - {type: held}
+    - null
+    - null
+    - null
+    - ")0"
+  L2:
+    - [null, null, null, null, null, "Page Up", Home, Up, End, null]
+    - [Ctrl, Alt, Gui, Shift, null, null, Left, Down, Right, null]
+    - [null, null, null, null, null, "Page Down", Insert, "Print Scrn", Delete, null]
+    - null
+    - null
+    - null
+    - null
+    - null
+    - {type: held}
+  L4:
+    - [null, null, null, null, null, F12, F7, F8, F9, null]
+    - ["OSM Ctrl", "OSM Alt", "OSM Gui", "OSM Shift", null, F11, F4, F5, F6, null]
+    - [null, null, null, null, null, F10, F1, F2, F3, null]
+    - null
+    - null
+    - null
+    - null
+    - {type: held}
+    - null
+combos:
+  - {p: [0, 1], k: "Esc", l: ["L0"]}
+  - {p: [6, 7], k: "(", l: ["L0"]}
+  - {p: [7, 8],   k: ")", l: ["L0"]}
+  - {p: [16, 17], k: "{", l: ["L0"]}
+  - {p: [17, 18], k: "}", l: ["L0"]}
+  - {p: [26, 27], k: "[", l: ["L0"]}
+  - {p: [27, 28], k: "]", l: ["L0"]}
+  - {p: [16, 17, 18], k: "=", l: ["L0"]}
+  - {p: [5, 6], k: "\"", l: ["L0"]}
+  - {p: [15, 16], k: "'", l: ["L0"]}
+  - {p: [5, 15], k: "|", l: ["L0"]}
+  - {p: [15, 25], k: "\\", l: ["L0"]}
+  - {p: [0, 10], k: "~", l: ["L0"]}
+  - {p: [10, 20], k: "`", l: ["L0"]}
+  - {p: [1, 2], k: "+", l: ["L0"]}
+  - {p: [2, 3], k: "-", l: ["L0"]}
+  - {p: [11, 12], k: "*", l: ["L0"]}
+  - {p: [12, 13], k: "/", l: ["L0"]}
+  - {p: [6, 7, 8], k: "_", l: ["L0"]}

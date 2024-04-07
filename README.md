@@ -1,5 +1,7 @@
 # My nowt36
 
+![Nowt36 Keymap](nowt36-keymap.png)
+
 ![Vial Screenshot](vial.png)
 
 - Vial support for nowt36
@@ -21,3 +23,4 @@
 - [QMK](https://github.com/qmk)
 - [Vial](https://github.com/vial-kb)
 - [tamago324](https://github.com/tamago324)
+- [caksoylar](https://github.com/caksoylar)/[keymap-drawer](https://github.com/caksoylar/keymap-drawer)
